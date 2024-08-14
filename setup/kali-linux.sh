@@ -102,7 +102,7 @@ sudo -u ais3 mkdir -p /home/ais3/challenge/where/am/i/now
 echo "AIS3_Junior{YOU_KNOW_WHERE_YOU_ARE}" | sudo -u ais3 tee /home/ais3/challenge/where/am/i/now/pwd_flag >/dev/null
 
 # Create challenge description file
-cat <<EOF | sudo tee /home/ais3/Desktop/CHALLENGES.txt >/dev/null
+cat <<EOF | sudo tee /home/ais3/CHALLENGES.txt >/dev/null
 歡迎來到 AIS3 Junior 2024 Linux 挑戰！
 
 1. kali 使用者的密碼已經被藏在你的家目錄下。試著找出這個文件並嘗試找出密碼！
@@ -118,6 +118,6 @@ cat <<EOF | sudo tee /home/ais3/Desktop/CHALLENGES.txt >/dev/null
 祝你好運！記得使用你學到的 Linux 命令來解決這些挑戰。
 EOF
 
-sudo chmod 644 /home/ais3/Desktop/CHALLENGES.txt
+sudo chmod 644 /home/ais3/CHALLENGES.txt
 
 log "Setup completed successfully!"
